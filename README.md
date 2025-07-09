@@ -1,4 +1,4 @@
-# Natural-Language to SQL Playground
+# Natural-Language to SQL
 
 A simple Streamlit app that converts plain-English queries into SQL commands and runs them against a SQLite database.  
 This tool is database-agnostic—you can swap out the example with any table and schema you prefer.
@@ -46,7 +46,7 @@ Query Results:
 1. Clone the repo:
    ```bash
    git clone https://github.com/pranav-here/text-to-sql.git
-   cd your-repo
+   cd text-to-sql
    ```
 
 2. Install dependencies:
