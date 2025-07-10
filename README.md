@@ -85,4 +85,4 @@ streamlit run main.py
 
 ## License
 
-MIT © Your Name
+MIT © Peanav Kuchibhotla
