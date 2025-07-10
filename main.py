@@ -3,14 +3,10 @@ import sqlite3
 
 import streamlit as st
 import pandas as pd
-from dotenv import load_dotenv
 
 from langchain_groq import ChatGroq
 from langchain_core.prompts import ChatPromptTemplate
 from langchain_core.output_parsers import StrOutputParser
-
-# ─── Load environment variables ───────────────────────────────────────────────
-load_dotenv()  # expects GROQ_API_KEY in your .env
 
 # ─── Build the system prompt for translating English → SQL ───────────────────
 groq_sys_prompt = ChatPromptTemplate.from_template("""
